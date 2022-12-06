@@ -15,7 +15,7 @@ class Day01 {
             }
             val elvesSorted = elves.sorted().reversed()
             println(elvesSorted)
-            println(elvesSorted[0] + elvesSorted[1] + elvesSorted[2])
+            println(elvesSorted.take(3).sum())
 
         }
     }
